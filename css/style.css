@@ -130,15 +130,16 @@ img {
     color: var(--accent-color);
 }
 .header-contact::before {
+    width: 100%;
+    height: 100%;
     display: inline-block;
     align-items: center;
     text-decoration: none;
     cursor: pointer;
     content: " ";
     margin-right: 10px;
-    background-position: center;
     background-repeat: no-repeat;
-    object-position: center;
+    justify-content: center;
 }
 .header-tel::before {
     width: 10px;
