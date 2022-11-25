@@ -541,6 +541,13 @@ img {
     color: var(--primary-white-color);
 }
 .footer-icon-text {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color:var(--primary-white-color)
 }
 .footer-soc-list {
@@ -572,4 +579,13 @@ img {
 }
 .footer-soc-icon {
     fill: currentColor;
+}
+.footer-block {
+    display: flex;
+}
+.footer-contact {
+    margin-right: 70px;
+}
+.footer-soc {
+    display: block;
 }
