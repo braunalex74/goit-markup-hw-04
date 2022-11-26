@@ -19,7 +19,6 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
 }
-/*-прибираємо нижній виступ у блоку з картинками, що виступає-*/
 img {
     display: block;
     width: 100%;
@@ -69,7 +68,7 @@ img {
 
 /*---------------HEADER---------------*/
 .header {
-    border-bottom: 1px solid var(--border-color);/*-робимо нижній край контейнера видимим (лінія)-*/
+    border-bottom: 1px solid var(--border-color);
 }
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -190,7 +189,6 @@ img {
 }
 
 /*---------------PROPERTIES---------------*/
-/*-обнуляємо зовнішні і задаємо внутрішні відступи секції-*/
 .section-properties {
     margin: 0;
     padding-top: 94px;
@@ -237,7 +235,6 @@ img {
 .properties-list .item {
     width: 270px;
 }
-/*-задаємо всім, крім першого, елементам відступ в 30px-*/
 .properties-list .item + .item {
     margin-left: 30px;
 }    
@@ -248,7 +245,6 @@ img {
 }
 
 /*---------------EMPLOYMENT---------------*/
-/*-обнуляємо зовнішні і задаємо внутрішні відступи секції-*/
 .section-employment {
     margin: 0;
     padding-bottom: 94px;
@@ -258,14 +254,12 @@ img {
 .employment-list {
     display: flex;
 }
-/*-задаємо всім, крім першим в рядку, елементам відступи праворуч в 30px-*/
 .employment-list > .employment-item {
     width: calc((100% - 60px) / 3);
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 30px;
 }
-/*-задаємо кожній лівій картинці в рядку 0-ву відстань зправа (у зв'язці із попереднім кодом)-*/
 .employment-list > .employment-item:nth-child(3n) {
     margin-right: 0;
 }
@@ -282,7 +276,6 @@ img {
 }
 
 /*---------------TEAM---------------*/
-/*-обнуляємо зовнішні і задаємо внутрішні відступи секції-*/
 .section-team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -415,7 +408,6 @@ img {
 }
 
 /*---------------PORTFOLIO---------------*/
-/*-обнуляємо зовнішні і задаємо внутрішні відступи секції-*/
 .section-portfolio {
     margin-top: 0;
     margin-bottom: 94px;
@@ -460,12 +452,10 @@ img {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/*-задаємо елементам переходити на іншу сторінку, якщо не вміщаються-*/
 .portfolio-img {
     display: flex;
     flex-wrap: wrap;
 }
-/*-задаємо всім елементам відступи праворуч і знизу в 30px-*/
 .portfolio-img > .item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
@@ -473,11 +463,9 @@ img {
 
     background: var(--primary-white-color);
 }
-/*-прибираємо у кожній правій крайній картинці відстань зправа (у зв'язці із попереднім кодом)-*/
 .portfolio-img >.item:nth-child(3n) {
     margin-right: 0;
 }
-/*-прибираємо у кожній картинці нижнього рядку відстань знизу (у зв'язці із попереднім кодом)-*/
 .portfolio-img >.item:nth-last-child(-n + 3) {
     margin-bottom: 0;
 }
@@ -512,7 +500,6 @@ img {
 
     background-color: var(--background-color);
 }
-/*-задаємо логотипу зовнішні відступи-*/
 .footer-logo{
     display: inline-block;
     margin-top: 0;
